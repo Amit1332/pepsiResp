@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(12, 7, 3);
+    font-family: sans-serif;
+}
+.container .nav{
+width: 100vw;
+height: 3rem;
+/* background-color: red; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky;
+
+}
+.nav .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    color: white;
+    width: 7.3rem;
+    font-size:1.4rem;
+    /* background-color: pink; */
+    font-style: italic;
+
+
+}
+.nav .left .logo{
+    height: 1.7rem;
+    width: 1.7rem;
+    border-radius: 50%;
+    background-color: rgb(255, 1, 1);
+    border: 2px solid white;
+}
+.nav .mid{
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+font-size: 1rem;
+width: 20rem;
+
+
+
+}
+.nav .mid li{
+    list-style: none;
+    color: rgb(219, 204, 204);
+}
+
+.nav .right{
+    padding-right: 10px;
+}
+.nav .right .btn
+{
+    
+   height: 2rem;
+   border-radius: 20px;
+   border: 2px solid white;
+   width: 8rem;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* padding-right: 20px; */
+    
+    /* background-color: yellow; */
+}
+
+.conleft{
+    display: flex;
+    height: 100%;
+    width: 2.5rem;
+    background-color: rgb(21, 20, 22);
+    position: absolute;
+    z-index: -1;
+    /* margin-top: -30px; */
+    top: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: sticky; */
+    
+}
+.block{
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+
+}
+.conleft i{
+    font-size: 1.5rem;
+    color: rgb(143, 141, 138);
+
+}
+.conmid{
+    height: 600px;
+    /* background-color: red; */
+    width: 60vw;
+    position: absolute;
+    z-index: -1;
+    left: 6rem;
+    color: white;
+    
+
+}
+.conmid .con1{
+    margin-top: 60px;
+}
+.conmid .con1 h1{
+    letter-spacing: 2px;
+}
+.conmid .con1 p{
+    margin-top: 15px;
+width: 450px;
+font-size: 0.8rem;
+}
+.conmid .con2{
+    margin-top: 30px;
+}
+.con2 .blocka{
+    display: flex;
+    width: 600px;
+    /* background-color: yellow; */
+    height: 100px;
+    margin-top: 3px;
+    /* flex-wrap: wrap; */
+}
+.blocka .block1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height:20px;
+    flex-direction: column;
+    height: 100px;
+    width: 120px;
+    background-color: rgb(26, 24, 24);
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.blocka .block2{
+    background-color: rgb(122, 0, 37);
+}
+.con2 p{
+    margin-top: 5px;
+    font-size: 10px;
+    color: darkgray;
+}
+.con2 .vtn{
+    height: 1.5rem;
+    border: 2px solid white;
+    width: 8rem;
+    font-size:0.6rem;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.pen{
+    width: 30rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.pen .pen1{
+    font-size: 3rem;
+}
+.pen .pen2{
+    font-size: 4rem;
+    color: crimson;
+}
+.pen .pen3{
+    font-size: 5rem;
+    color: green;
+}
+.pen .pen4{
+    font-size: 6rem;
+    color: purple;
+}
+.pen .pen5{
+    font-size: 8rem;
+    color: red;
+}
+.ig{
+    position: absolute;
+    right: 290px;
+    top: 100px;
+}
+.ig img{
+    height: 32rem;
+    width: 16rem;
+    filter: drop-shadow(-10px 20px 20px rgb(90, 87, 87));
+    
+}
+@media(max-width:500px){
+    .conmid .con1 p{
+        margin-top: 5px;
+    width: 200px;
+    font-size: 0.4rem;
+    }
+    .conmid .con1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conmid .con1 h1{
+        font-size: 28px;
+    }
+    .con2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .con2 .blocka{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+
+    }
+.con2 .blocka .block1{
+    margin-top: 20px;
+/* height: 100px; */
+}    
+.con2 p{
+    margin-top: 330px;
+}
+
+.ig img{
+    height: 14rem;
+    width: 7rem;
+    position: absolute;
+    top:680px;
+    margin-left: 47px;
+}
+.pen{
+    margin-top: 250px;
+    /* margin-left: 100px; */
+    width:25rem ;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .nav .left{
+       padding: 1px;
+        justify-content: center;
+        width: none;
+        position: fixed;
+    }
+    .nav .mid{
+        width: 12rem;
+        font-size: 0.7rem;
+        margin-left: 130px;
+    }
+    .nav .right{
+        padding-right: none;
+    }
+    .nav .right .btn{
+        width: 3.8rem;
+        font-size: 0.7rem;
+   height: 1.3rem;
+        
+    }
+
+    .conleft{
+    /* position: sticky; */
+    height: 100%;
+    }
+}
